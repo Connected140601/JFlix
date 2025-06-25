@@ -1,0 +1,74 @@
+{
+  "name": "JFlix",
+  "short_name": "JFlix",
+  "description": "Stream Movies, TV Shows, Anime, and Korean Dramas all in one place",
+  "start_url": "/index.html",
+  "id": "/?source=pwa",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#141414",
+  "theme_color": "#e50914",
+  "orientation": "portrait-primary",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": [
+    "entertainment",
+    "movies",
+    "tv"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "iarc_rating_id": "your-iarc-rating-id",
+  "scope_extensions": [
+    { "origin": "https://jflix.pages.dev" }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.jflix.app",
+      "id": "com.jflix.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/app/jflix/id123456789"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "JFlix Homepage"
+    },
+    {
+      "src": "images/screenshots/screenshot2.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "JFlix on Mobile"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/logo/logo-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "images/logo/logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "images/logo/logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
